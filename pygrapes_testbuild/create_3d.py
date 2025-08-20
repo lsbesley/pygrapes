@@ -1,7 +1,6 @@
 import torch
 import numpy as np
 def fill_3d_tensor(A,structure_height,params_size,oversample_structure,oversample_factor):
-
     # Get the dimensions of the 2D tensor
     width,height = A.shape
     output3d = A.repeat(structure_height,1,1)-torch.arange(structure_height).unsqueeze(1).unsqueeze(1).expand(structure_height,width,height)
@@ -38,7 +37,7 @@ def interp_3d_tensor(A,structure_height,oversample_structure,oversample_factor):
     return output3d
 
 def display_3d_tensor(A,structure_height,params_size,oversample_structure,oversample_factor):
-	width,height = A.shape
+    width,height = A.shape
         output3d = A.repeat(structure_height,1,1)-torch.arange(structure_height).unsqueeze(1).unsqueeze(1).expand(structure_height,width,height)
         output3d = torch.clamp(output3d,0,1)
         
