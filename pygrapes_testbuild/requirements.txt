@@ -1,0 +1,7 @@
+torch
+torchvision
+numpy
+matplotlib
+h5py
+scikit-image
+scipy
