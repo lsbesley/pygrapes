@@ -17,11 +17,15 @@ setup(
     url="https://github.com/lsbesley/pygrapes",
     packages=find_packages(),
     install_requires=[
-        "numpy",
-        "torch",
-        "matplotlib",
-        "h5py"
+    "torch",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "h5py",
+    "scikit-image",
+    "scipy"
     ],
+
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
