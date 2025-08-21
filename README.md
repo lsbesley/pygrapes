@@ -6,4 +6,5 @@ PyGRAPES is best suited for grazing incidence and reflection geometry ptychograp
 PyGRAPES is tested on GPU and is strongly reccomended to run on GPU, but should run on CPU. 
 
 ## Installation
-Clone the Git Repository and run the test jupyter notebooks to verify the installation is working. 
+Clone the Git Repository and run the test jupyter notebook "Demo_sim_Script_1incangle-pygrapes.ipynb" to verify the installation is working. 
+A less cleaned up version of the notebook "Demo_sim_Script_1incangle_scratch.ipynb" runs without explicitly needing PyGRAPES installation.
