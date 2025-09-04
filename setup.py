@@ -24,6 +24,7 @@ setup(
         "h5py",
         "scikit-image",
         "scipy"
+        "jupyterlab"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
