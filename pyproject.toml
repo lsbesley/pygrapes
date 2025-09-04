@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygrapes"
+version = "0.1.0"
+description = "PyTorch-based framework for 3D grazing incidence ptychography"
+readme = "README.md"
+authors = [
+    {name="Luke Besley", email="luke.s.besley@gmail.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "h5py",
+    "scikit-image",
+    "scipy"
+]
