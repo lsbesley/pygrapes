@@ -17,3 +17,15 @@ You can run Demo_sim_Script_1incangle-pygrapes.ipynb, a jupyter notebook in the 
 
 Alternatively, you can run Demo_sim_Script_1incangle_scratch.ipynb which is messier, but does not require PyGRAPES to be installed explicitly, only other existing dependencies (torch, matplotlib, numpy, time, h5py, etc in the first cell of the notebook)
 
+## Requirements
+### Hardware 
+PyGRAPES is strongly _reccomended_ to run on GPU, but in principle could run on CPU by changing the default device in pytorch. This has not been tested. 
+For the demo scripts, the default settings require at least 5 GB VRAM and an NVIDIA GPU with CUDA. The software was built/tested on an RTX 3090 with 24 GB VRAM.
+
+### Package dependencies
+- Pytorch
+- Numpy
+- matplotlib
+- skimage.draw
+- scipy.ndimage
+
