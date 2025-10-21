@@ -1,4 +1,8 @@
-# PyGRAPES
+<img src="documentation/PygrapesLogo.png" alt="Geometries in grazing incidence for 3D reconstruction" width="300"/>
+
+
+
+
 PyGRAPES (**Py**torch **gra**zing incidence **p**tychographic **e**ngine for **s**urfaces and nanostructures) is a versatile pytorch-based multislice framework for 3D reconstruction and simulation of ptychographic data in grazing incidence.
 
 
